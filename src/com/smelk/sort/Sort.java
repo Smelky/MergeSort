@@ -1,8 +1,8 @@
-package com.smelk.mergeSortInPlace;
+package com.smelk.sort;
 
 import java.util.Arrays;
 
-public class MergeSortInPlace {
+public class Sort {
 
     public static void main(String[] args) {
 
