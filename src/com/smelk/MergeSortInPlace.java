@@ -2,7 +2,7 @@ package com.smelk;
 
 public class MergeSortInPlace {
 
-    static void merge(int arr[], int start, int mid, int end) {
+    private static void merge(int arr[], int start, int mid, int end) {
         int start2 = mid + 1;
 
         if (arr[mid] <= arr[start2]) {
@@ -30,7 +30,7 @@ public class MergeSortInPlace {
         }
     }
 
-    static void mergeSort(int arr[], int l, int r) {
+    public static void mergeSort(int arr[], int l, int r) {
         if (l < r) {
 
             int m = l + (r - l) / 2;
@@ -42,7 +42,7 @@ public class MergeSortInPlace {
         }
     }
 
-    static void printArray(int A[], int size) {
+    public static void printArray(int A[], int size) {
         int i;
         for (i = 0; i < size; i++)
             System.out.print(A[i] + " ");
