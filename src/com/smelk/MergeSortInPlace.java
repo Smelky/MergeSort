@@ -1,7 +1,7 @@
 package com.smelk;
 
 public class MergeSortInPlace {
-    
+
     static void merge(int arr[], int start, int mid, int end) {
         int start2 = mid + 1;
 
